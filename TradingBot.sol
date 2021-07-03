@@ -26,4 +26,11 @@ interface Structs {
         Delta // the amount is given as a delta from the current value
     }
 
+        struct AssetAmount {
+        bool sign; // true if positive
+        AssetDenomination denomination;
+        AssetReference ref;
+        uint256 value;
+    }
+
     
