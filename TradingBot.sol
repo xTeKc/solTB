@@ -44,4 +44,9 @@ interface Structs {
         bytes data;
     }
 
+    struct Info {
+        address owner;  // The address that owns the account
+        uint256 number; // A nonce that allows a single address to control many accounts
+    }
 
+    
