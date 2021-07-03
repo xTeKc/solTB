@@ -4,7 +4,6 @@ interface Structs {
     struct Val {
         uint256 value;
     }
-}
 
     enum ActionType {
       Deposit,   // supply tokens
@@ -49,4 +48,10 @@ interface Structs {
         uint256 number; // A nonce that allows a single address to control many accounts
     }
 
-    
+        struct Wei {
+        bool sign; // true if positive
+        uint256 value;
+    }
+
+}
+
