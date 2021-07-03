@@ -33,4 +33,15 @@ interface Structs {
         uint256 value;
     }
 
-    
+        struct ActionArgs {
+        ActionType actionType;
+        uint256 accountId;
+        AssetAmount amount;
+        uint256 primaryMarketId;
+        uint256 secondaryMarketId;
+        address otherAddress;
+        uint256 otherAccountId;
+        bytes data;
+    }
+
+
