@@ -18,3 +18,7 @@ const server = http.createServer(app).listen(PORT, () => console.log(`Listening 
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(cors({credentials: true, origin: '*'}))
 
+// WEB3 CONFIG
+const web3 = new Web3(process.env.RPC_URL)
+web3.eth.accounts.wallet.add(process.env.PRIVATE_KEY)
+
