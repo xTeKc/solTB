@@ -18,4 +18,8 @@ interface Structs {
       Call       // send arbitrary data to an address
     }
 
+        enum AssetDenomination {
+        Wei // the amount is denominated in wei
+    }
+
     
