@@ -22,4 +22,8 @@ interface Structs {
         Wei // the amount is denominated in wei
     }
 
+        enum AssetReference {
+        Delta // the amount is given as a delta from the current value
+    }
+
     
