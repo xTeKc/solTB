@@ -1,2 +1,2 @@
 # solTB
-Trading Bot using Solidity
+Solidity Trading Bot.
